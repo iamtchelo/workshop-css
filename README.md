@@ -30,7 +30,7 @@ E {
 
 ```css
 /* Elemento E que contém o attributo "lang" */
-E[name] {
+E[lang] {
   color: gray;
 }
 ```

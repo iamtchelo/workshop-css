@@ -1,6 +1,6 @@
 # Como criar meu próprio framework CSS?
 
-# Seletores
+![CSS Selectors](https://i.ytimg.com/vi/TveUPhu0Vwo/maxresdefault.jpg)
 
 ```css
 /* Qualquer elemento da árvore */

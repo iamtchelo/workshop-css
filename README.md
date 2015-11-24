@@ -2,8 +2,8 @@
 
 ![CSS Selectors](https://i.ytimg.com/vi/TveUPhu0Vwo/maxresdefault.jpg)
 
+Seleciona qualquer elemento da árvore.
 ```css
-/* Qualquer elemento da árvore */
 * {
   padding: 10px 20px;
   color: tomato;
@@ -15,8 +15,8 @@
 ```
 ------------------------------------------
 
+Seleciona qualquer elemento da árvore. *E*
 ```css
-/* Qualquer elemento com o nome E */
 E {
   text-decoration: underline;
   color: orange;
@@ -28,8 +28,8 @@ E {
 
 ------------------------------------------
 
+Seleciona um elemento com um atributo específico. *E[attr]*
 ```css
-/* Elemento E que contém o attributo "lang" */
 E[lang] {
   color: gray;
 }
@@ -41,8 +41,8 @@ E[lang] {
 
 ------------------------------------------
 
+Seleciona um elemento que contém um atributo com um valor específico. *E[attr=value]*
 ```css
-/* Elemento E cujo attributo "lang" é igual a "pt-br" */
 E[lang="pt-br"] {
   color: blue;
 }
@@ -55,9 +55,8 @@ E[lang="pt-br"] {
 
 ------------------------------------------
 
+Seleciona um elemento cujo o valor do atributo "attr" é exatamente "value" ou contém o "value" entre espaços em branco
 ```css
-/* Element E cujo o valor do attribute "name" é exatamente "Marcelo" ou contém o nome "Marcelo" entre
-espaços em branco */
 E[name~=Marcelo] {
   color: red;
 }

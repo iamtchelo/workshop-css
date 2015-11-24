@@ -101,7 +101,7 @@ span[value^="workshop"] {
 Seleciona um elemento cujo valor do atributo "attr" termina com a string "value". **E[attr$="value"]**
 
 ```css
-span[value="css"] {
+span[value$="css"] {
   color: yellow;
 }
 ```
@@ -115,7 +115,7 @@ span[value="css"] {
 Seleciona um elemento cujo valor do atributo "attr" contém a substring "value". **E[attr*="value"]**
 
 ```css
-span[value="fa7"] {
+span[value*="fa7"] {
   color: yellow;
 }
 ```
@@ -125,7 +125,7 @@ span[value="fa7"] {
 
 ------------------------------------------
 
-Seleciona um elemento cujo valor do atributo "attr" é exatamente "value" ou começa com "value"
+Seleciona um elemento cujo valor do atributo "attr" é exatamente "value" ou começa com "value". **E[attr|="value"]**
 
 ```css
 span[lang|="pt"] {

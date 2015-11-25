@@ -9,6 +9,10 @@ Não sou contra quem usa [Bootstrap](http://getbootstrap.com/), [Foundation](htt
 - Seletores
 - Componentização
 
+# Quais componentes vamos criar?
+
+- botões
+
 ![CSS Selectors](https://i.ytimg.com/vi/TveUPhu0Vwo/maxresdefault.jpg)
 
 Antes de tudo, como escrevo código CSS?
@@ -139,3 +143,7 @@ span[lang|="pt"] {
 ```
 
 ------------------------------------------
+
+# Botões
+
+![Buttons](https://photos-4.dropbox.com/t/2/AABB1kme6voG-VTS1Wf5ABr4wjPRsVSY7Fs9Shrvsp1I6w/12/144913745/png/32x32/1/_/1/2/buttons.png/EO2k9W4YkJUEIAcoBw/-bwCo94YjQxL3A-l3lprINer41KngzsWUwKJz9qQDpU?size=1024x768&size_mode=3)

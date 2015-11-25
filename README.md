@@ -152,3 +152,7 @@ span[lang|="pt"] {
 # Dropdown Buttons
 
 ![Dropdown Buttons](screenshots/dropdown-button.png)
+
+# Tooltips
+
+![Tooltips](screenshots/tooltips.png)

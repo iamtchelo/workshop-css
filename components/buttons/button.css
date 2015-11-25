@@ -23,7 +23,7 @@ html,body {
   margin: 0 10px;
 }
 
-/* Button default */
+/* Button Component */
 .button {
   display: inline-block;
   padding: 10px 17px;

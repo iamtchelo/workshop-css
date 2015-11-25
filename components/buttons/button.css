@@ -1,0 +1,68 @@
+/* Default styles */
+html,body {
+  height: 100%;
+  font: 16px Arial, Helvetica, sans-serif;
+  background: #F4F4F4;
+}
+
+#container {
+  width: 800px;
+  margin: 50px auto;
+}
+
+.example {
+  margin: 10px 0;
+}
+
+.example > div {
+  float: left;
+  margin: 20px 0;
+}
+
+.example > div .button {
+  margin: 0 10px;
+}
+
+button[class*="button"] { color: #FFF; }
+
+/* Button default */
+.button {
+  display: inline-block;
+  padding: 10px 17px;
+  border: none;
+  outline: none;
+  font-size: 1em;
+  text-align: center;
+  background: #E2E2E2;
+  color: #777;
+  box-sizing: border-box;
+  transform: translate(0, 0);
+  transition: background 0.2s ease;
+}
+
+/* Button sizes */
+.button-md { padding: 15px 35px; }
+.button-lg { padding: 20px 100px; }
+
+/* Button styles */
+.button-grow { transition: box-shadow 0.2s linear, transform 0.3s ease; }
+.button-grow:hover { transform: translateY(5px); }
+.button-grow:active { transform: translateY(10px); }
+
+.button-rounded { border-radius: 7px; }
+
+/* Primary button **/
+.button-primary { background: #DB2955; }
+.button-primary:hover { background: #EF4670; }
+
+.button-primary.button-grow { box-shadow: 0 10px 0 #9A1737; }
+.button-primary.button-grow:hover { box-shadow: 0 5px 0 #9A1737; }
+.button-primary.button-grow:active { box-shadow: 0 0 0 #9A1737; }
+
+/* Secondary button */
+.button-secondary { background: #00B5E2; }
+.button-secondary:hover { background: #10C7F5; }
+
+.button-secondary.button-grow { box-shadow: 0 10px 0 #0890B1; }
+.button-secondary.button-grow:hover { box-shadow: 0 5px 0 #0890B1; }
+.button-secondary.button-grow:active { box-shadow: 0 0 0 #0890B1; }

@@ -31,6 +31,7 @@ html,body {
   outline: none;
   font-size: 1em;
   text-align: center;
+  text-decoration: none;
   background: #E2E2E2;
   color: #FFF;
   cursor: pointer;
@@ -49,6 +50,12 @@ html,body {
 }
 .button-grow:hover { transform: translateY(5px); }
 .button-grow:active { transform: translateY(10px); }
+
+.button-block {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+}
 
 .button-rounded { border-radius: 7px; }
 

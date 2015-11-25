@@ -11,8 +11,22 @@ Não sou contra quem usa [Bootstrap](http://getbootstrap.com/), [Foundation](htt
 
 # Quais componentes vamos criar?
 
-- buttons
-- dropdown-buttons
+- Buttons
+  - Dropdown
+- Tooltips
+
+# Buttons
+![Buttons](screenshots/buttons.png)
+
+# Dropdown Buttons
+![Dropdown Buttons](screenshots/dropdown-button.png)
+
+# Tooltips
+![Tooltips](screenshots/tooltips.png)
+
+# Então vamos colocar a mão na massa?
+
+------------------------------------------
 
 ![CSS Selectors](https://i.ytimg.com/vi/TveUPhu0Vwo/maxresdefault.jpg)
 
@@ -21,8 +35,6 @@ Antes de tudo, como escrevo código CSS?
 ![CSS Declarations](http://www.etsav.upc.edu/assignatures/portafoli/imatges/css.jpg)
 
 Vamos conhecer um pouco dos seletores CSS, vamos abordar algumas coisas importantes aqui. Caso queira um material completo sobre isso, estude por aqui [CSS Reference - Codrops](http://tympanus.net/codrops/css_reference/)
-
-# Então vamos colocar a mão na massa?
 
 Seleciona qualquer elemento da árvore.
 ```css
@@ -144,15 +156,3 @@ span[lang|="pt"] {
 ```
 
 ------------------------------------------
-
-# Buttons
-
-![Buttons](screenshots/buttons.png)
-
-# Dropdown Buttons
-
-![Dropdown Buttons](screenshots/dropdown-button.png)
-
-# Tooltips
-
-![Tooltips](screenshots/tooltips.png)

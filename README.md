@@ -26,7 +26,7 @@ Não sou contra quem usa [Bootstrap](http://getbootstrap.com/), [Foundation](htt
 ![Tooltips](screenshots/tooltips.png)
 
 # Accordions
-![Accordions](screenshots/accordions.png)
+![Accordions](screenshots/accordion.png)
 
 # Então vamos colocar a mão na massa?
 

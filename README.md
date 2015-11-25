@@ -11,7 +11,8 @@ Não sou contra quem usa [Bootstrap](http://getbootstrap.com/), [Foundation](htt
 
 # Quais componentes vamos criar?
 
-- botões
+- buttons
+- dropdown-buttons
 
 ![CSS Selectors](https://i.ytimg.com/vi/TveUPhu0Vwo/maxresdefault.jpg)
 
@@ -144,6 +145,10 @@ span[lang|="pt"] {
 
 ------------------------------------------
 
-# Botões
+# Buttons
 
 ![Buttons](screenshots/buttons.png)
+
+# Dropdown Buttons
+
+![Dropdown Buttons](screenshots/dropdown-button.png)

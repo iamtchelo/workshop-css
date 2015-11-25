@@ -1,0 +1,82 @@
+/* Default styles */
+html,body {
+  height: 100%;
+  font: 16px Arial, Helvetica, sans-serif;
+  background: #F4F4F4;
+}
+
+#container {
+  width: 800px;
+  margin: 50px auto;
+}
+
+.example {
+  margin: 10px 0;
+}
+
+/* Accordions Component */
+.accordions {
+}
+
+.accordions .accordion {
+  float: left;
+  position: relative;
+  z-index: 1;
+  margin: 5px 0;
+  width: 100%;
+}
+
+.accordion .accordion-link {
+  display: block;
+  position: relative;
+  padding: 15px;
+  font-size: 15px;
+  cursor: pointer;
+  border: 1px solid #CCC;
+  color: #666;
+  background: #FFF;
+  border-radius: 5px;
+  box-sizing: border-box;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+.accordion .accordion-check:checked ~ .accordion-link {
+  background: #CCC;
+  color: #666;
+}
+
+.accordions-primary .accordion-check:checked ~ .accordion-link,
+.accordions-primary .accordion-link:hover {
+  background: #DB2955;
+  color: #FFF;
+}
+
+.accordions-secondary .accordion-check:checked ~ .accordion-link {
+  background: #00B5E2;
+  color: #FFF;
+}
+
+.accordion .accordion-check:checked ~ .accordion-body {
+  max-height: 500px;
+}
+
+.accordion .accordion-body {
+  float: left;
+  position: relative;
+  z-index: -1;
+  margin-top: -5px;
+  width: 100%;
+  max-height: 0px;
+  overflow: hidden;
+  background: #FFF;
+  border-left: 1px solid #CCC;
+  border-right: 1px solid #CCC;
+  border-bottom: 1px solid #CCC;
+  box-sizing: border-box;
+  transition: max-height 500ms ease-out;
+}
+
+.accordion-body .accordion-content {
+  padding: 20px;
+  box-sizing: border-box;
+}

@@ -14,6 +14,7 @@ Não sou contra quem usa [Bootstrap](http://getbootstrap.com/), [Foundation](htt
 - Buttons
   - Dropdown
 - Tooltips
+- Accordions
 
 # Buttons
 ![Buttons](screenshots/buttons.png)
@@ -23,6 +24,9 @@ Não sou contra quem usa [Bootstrap](http://getbootstrap.com/), [Foundation](htt
 
 # Tooltips
 ![Tooltips](screenshots/tooltips.png)
+
+# Accordions
+![Accordions](screenshots/accordions.png)
 
 # Então vamos colocar a mão na massa?
 

@@ -55,6 +55,7 @@ Seleciona qualquer elemento da árvore.
 <p>I'm a paragraph</p>
 <span>I'm a span</span>
 ```
+
 ------------------------------------------
 
 Seleciona qualquer elemento da árvore. **E**
@@ -66,6 +67,131 @@ E {
 ```
 ```html
 <h1>Workshop CSS</h1>
+```
+
+------------------------------------------
+
+Para colocar a mesma regra para vários elementos ao mesmo tempo. **E,E...**
+```css
+div, p, span {
+  text-align: center;
+  color: orange;
+}
+```
+```html
+<div>C</div>
+<p>S</p>
+<span>S</span>
+```
+
+------------------------------------------
+
+Seleciona qualquer elemento **q** dentro de **p**. **p q**
+```css
+.sponsors img {
+  display: block;
+  margin: auto;
+  border-radius: 50%;
+}
+```
+```html
+<div class="sponsors">
+  <img src="{{ src }}" width="" height="" alt="" />
+</div>
+```
+
+------------------------------------------
+
+Seleciona qualquer elemento **q** onde o pai é um elemento **p**. **p > q**
+```css
+div > .featured {
+  font-size: 3em;
+  text-align: center;
+  color: purple;
+}
+```
+```html
+<div>
+  <span class="featured">I'm featured</span>
+</div>
+
+<main>
+  <span class="featured">Not featured :/</span>
+</main>
+```
+
+------------------------------------------
+
+Seleciona qualquer elemento **q** que está imediatamente depois de **p**. **p + q**
+```css
+div + p {
+  color: tomato;
+  font-size: 22px;
+}
+```
+```html
+<div></div>
+<p>Hello!</p>
+<h1>I'm a title!</h1>
+<p>Hello guys!</p>
+```
+
+------------------------------------------
+
+Seleciona qualquer element **q** que está precedido de um elemento **p**. **p ~ q**
+```css
+.container ~ .list {
+  padding: 20px;
+  background: purple;
+}
+```
+```html
+<p>Hello!</p>
+<ul class="list">
+  <li>Item 1</li>
+  <li>Item 2</li>
+  <li>Item 3</li>
+</ul>
+<div class="container"></div>
+<ul class="list">
+  <li>Item 1</li>
+  <li>Item 2</li>
+  <li>Item 3</li>
+</ul>
+<h1>Title!!!</h1>
+<ul class="list">
+  <li>Item 1</li>
+  <li>Item 2</li>
+  <li>Item 3</li>
+</ul>
+```
+
+------------------------------------------
+
+Seleciona qualquer elemento que contém **.class**
+```css
+.featured {
+  color: yellow;
+  font-size: 2.5em;
+}
+```
+```html
+<span class="featured">Featured span!</span>
+<div class="featured">Featured div!</div>
+```
+
+------------------------------------------
+
+Seleciona qualquer elemento que contém **#id**
+```css
+#name {
+  font-weight: bold;
+  font-size: 3em;
+  color: red;
+}
+```
+```html
+<p id="name">Marcelo Silva</div>
 ```
 
 ------------------------------------------
@@ -164,3 +290,18 @@ span[lang|="pt"] {
 ```
 
 ------------------------------------------
+
+# Pseudo-classes
+
+A CSS pseudo-class is a keyword added to selectors that specifies a special state of the element to be selected.
+
+------------------------------------------
+
+- **E:hover** = Quando o usuário passa o mouse por cima do elemento
+- **E:focus** = Quando o elemento recebe um foco, pode ser pelo teclado ou mouse
+- **E:enabled** = Quando um elemento está ativado
+- **E:disabled** = Quando um elemento está desativado
+- **E:first-child** = Pega o primeiro filho
+- **E:last-child** = Pega o último filho
+- **E:required** = Quando o input tem o atributo required
+- **E:checked** = Quando qualquer elemento radio, checkbox, ou um option dentro de um select está checkado

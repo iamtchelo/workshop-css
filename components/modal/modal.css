@@ -41,9 +41,9 @@ html,body {
 }
 
 /* Modal sizes */
-.modal-content.modal-large { width: 850px; }
-.modal-content.modal-medium { width: 550px; }
-.modal-content.modal-smaller { width: 350px; }
+.modal-content.modal-lg { width: 850px; }
+.modal-content.modal-md { width: 550px; }
+.modal-content.modal-sm { width: 350px; }
 
 #modal .modal-content {
   position: relative;

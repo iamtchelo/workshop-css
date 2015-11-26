@@ -293,7 +293,7 @@ span[lang|="pt"] {
 
 # Pseudo-classes
 
-A CSS pseudo-class is a keyword added to selectors that specifies a special state of the element to be selected.
+A pseudo-classe CSS é uma palavra-chave adicionada à seletores que especifica um estado especial do elemento a ser selecionado.
 
 ------------------------------------------
 
